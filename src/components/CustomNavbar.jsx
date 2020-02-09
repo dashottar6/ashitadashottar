@@ -8,7 +8,7 @@ class CustomNavbar extends Component {
         return (
             <Navbar className="sticky-top" fluid="true" expand="lg" default collapseOnSelect>
                     <Navbar.Brand >
-                        <Link id="link_about" to="/">Ashita Dashottar</Link>
+                        <Link id="link_about" to="/ashitadashottar">Ashita Dashottar</Link>
                     </Navbar.Brand>
                     <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>
                 <Navbar.Collapse id="navbar-toggle">
