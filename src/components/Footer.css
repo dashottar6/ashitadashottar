@@ -34,11 +34,11 @@
 }
 
 .footer{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    bottom: 0;
+    padding-top: 10px;
     background-color: black;
     align-content: center;
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    height:80px;
     width: 100%;
 }

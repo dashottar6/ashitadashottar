@@ -4,7 +4,8 @@ import './Footer.css';
 function Footer() {
     return(
 
-        <footer className="text-center footer">
+        <footer className="text-center footer fixed-bottom">
+            <div className="text-white">Let's Connect</div>
                 <a href="https://www.facebook.com/ashita.dashottar"><i id="social-fb"
                                                                 className="fab fa-facebook-square fa-3x social"></i></a>
                 <a href="https://www.linkedin.com/in/ashita-dashottar/"><i id="social-li"
@@ -14,7 +15,7 @@ function Footer() {
                 <a href="mailto:ashitadashottar6@gmail.com"><i id="social-em"
                                                         className="fa fa-envelope-square fa-3x social"></i></a>
 
-            <div className="text-white">Let's Connect</div>
+
         </footer>
     );
 }

@@ -18,6 +18,7 @@ class App extends React.Component {
             headerLinks: [
                 {title: 'Home', path: '/ashitadashottar'},
                 {title: 'About', path: '/about'},
+                //yha bhi
                 {title: 'Projects', path: '/projects'}
             ]
         }
@@ -25,16 +26,12 @@ class App extends React.Component {
     render() {
         return (
            <Router>
-               <Container fluid={true} className="p-0 appColor">
+               <Container fluid={true} className="p-0 appColor ">
                    <Navbar sticky="top"/>
-                   <Route path="/ashitadashottar" render={() => <Home/>}/>
+                   {/*yha karna h /ashitadashottar*/}
+                   <Route path="/ashitadashottar" exact render={() => <Home/>}/>
                    <Route path="/about" render={() => <About/>}/>
                    <Route path="/projects" render={() => <Projects/>}/>
-
-
-                   {/*<Route exact path="/" component={Home}/>*/}
-                   {/*<Route path="/about" component={About}/>*/}
-                   {/*<Route path="/projects" component={Projects}/>*/}
                </Container>
 
                <Footer />
