@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4dd513af397a2d4f4f4a6959affd21dd",
+    "revision": "a8cf4f8b3f2aa13e4686c6de760598ce",
     "url": "/ashitadashottar/index.html"
   },
   {
-    "revision": "0befa17a029743ec7e64",
+    "revision": "c913095fe1a6cdf8080b",
     "url": "/ashitadashottar/static/css/2.25d2dfdd.chunk.css"
   },
   {
-    "revision": "f331e6138974e8a67aef",
-    "url": "/ashitadashottar/static/css/main.7927756b.chunk.css"
+    "revision": "d6150ae1ba58833e7000",
+    "url": "/ashitadashottar/static/css/main.105282af.chunk.css"
   },
   {
-    "revision": "0befa17a029743ec7e64",
-    "url": "/ashitadashottar/static/js/2.50367be0.chunk.js"
+    "revision": "c913095fe1a6cdf8080b",
+    "url": "/ashitadashottar/static/js/2.1e75d934.chunk.js"
   },
   {
     "revision": "bf23039b4e70a07c5aeb1b4010df3572",
-    "url": "/ashitadashottar/static/js/2.50367be0.chunk.js.LICENSE.txt"
+    "url": "/ashitadashottar/static/js/2.1e75d934.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f331e6138974e8a67aef",
-    "url": "/ashitadashottar/static/js/main.f064982c.chunk.js"
+    "revision": "d6150ae1ba58833e7000",
+    "url": "/ashitadashottar/static/js/main.6ae5a450.chunk.js"
   },
   {
     "revision": "29f558f914357f3f3b16",
