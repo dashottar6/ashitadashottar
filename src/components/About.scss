@@ -1,0 +1,101 @@
+@import "https://fonts.googleapis.com/css?family=Raleway:400,300|Raleway+Dots|Lato:300|Inconsolata|Montserrat";
+@import "http://fonts.googleapis.com/css?family=Raleway+Dots";
+
+.header-image{
+    margin-bottom: 2em;
+    width: inherit;
+    height: 100%;
+    opacity: 0.9;
+
+}
+
+.about-profile-pic{
+    float: left;
+    margin: 0 1em 1em 0;
+    height: 500px;
+    width: 100%;
+}
+
+.app1Color {
+    color: white;
+    background-color: black;
+    margin-bottom: 4.3em;
+}
+
+.app2Color {
+    background-color: #24bba0;
+}
+
+$title: #66ccff;
+$header: #5371e1;
+$detail: #b2b2b2;
+$highlight: #5371e1;
+$text: #ffffff;
+
+body {
+    background: black;
+    letter-spacing: 2px;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    line-height: 1.5;
+    color: white
+}
+
+.skills {
+    max-width: 70%;
+    margin: 40px auto;
+    text-align: center;
+    .hr-text {
+        font-size: 20px;
+        position: relative;
+        border: 0;
+        height: 1.5em;
+        &:before {
+            content: '';
+            background: linear-gradient(to right, transparent, $detail, transparent);
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            height: 1px;
+        }
+        &:after {
+            content: attr(data-content);
+            position: relative;
+            display: inline-block;
+            color: black;
+
+            padding: 0 .5em;
+            line-height: 1.5em;
+            color: $title;
+            background-color: black;
+        }
+    }
+    li {
+        display: inline-block;
+        font-size: 14px;
+    }
+    i {
+        font-size: 10px;
+        padding: 0 10px 0 10px;
+    }
+}
+
+
+//fade
+.fade-2 {
+    border-width: 0 0 1px;
+    $color: skyblue;
+    color: $color;
+    border-image: linear-gradient(
+                    90deg,
+                    rgba($color, 0),
+                    rgba($color, 1) 50%,
+                    rgba($color, 0) 100%) 0 0 100%;
+    border-style: solid;
+}
+
