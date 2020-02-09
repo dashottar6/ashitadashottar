@@ -2,13 +2,12 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dashottar6.github.io/",
+  "homepage": "https://dashottar6.github.io/ashitadashottar",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.4.1",
-    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
@@ -40,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
