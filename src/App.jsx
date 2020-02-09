@@ -16,7 +16,7 @@ class App extends React.Component {
         super(props);
         this.state={
             headerLinks: [
-                {title: 'Home', path: '/'},
+                {title: 'Home', path: '/ashitadashottar'},
                 {title: 'About', path: '/about'},
                 {title: 'Projects', path: '/projects'}
             ]
@@ -27,7 +27,7 @@ class App extends React.Component {
            <Router>
                <Container fluid={true} className="p-0 appColor">
                    <Navbar sticky="top"/>
-                   <Route path="/" exact render={() => <Home/>}/>
+                   <Route path="/ashitadashottar" exact render={() => <Home/>}/>
                    <Route path="/about" render={() => <About/>}/>
                    <Route path="/projects" render={() => <Projects/>}/>
 
