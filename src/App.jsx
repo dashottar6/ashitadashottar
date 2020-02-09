@@ -27,7 +27,7 @@ class App extends React.Component {
            <Router>
                <Container fluid={true} className="p-0 appColor">
                    <Navbar sticky="top"/>
-                   <Route path="/ashitadashottar" exact render={() => <Home/>}/>
+                   <Route path="/ashitadashottar" render={() => <Home/>}/>
                    <Route path="/about" render={() => <About/>}/>
                    <Route path="/projects" render={() => <Projects/>}/>
 
