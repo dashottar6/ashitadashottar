@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a8cf4f8b3f2aa13e4686c6de760598ce",
+    "revision": "7816fd478092977ff827d1fb07b3f9fe",
     "url": "/ashitadashottar/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ashitadashottar/static/css/2.25d2dfdd.chunk.css"
   },
   {
-    "revision": "d6150ae1ba58833e7000",
+    "revision": "c953c407410be86366ed",
     "url": "/ashitadashottar/static/css/main.105282af.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ashitadashottar/static/js/2.1e75d934.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d6150ae1ba58833e7000",
-    "url": "/ashitadashottar/static/js/main.6ae5a450.chunk.js"
+    "revision": "c953c407410be86366ed",
+    "url": "/ashitadashottar/static/js/main.a980091a.chunk.js"
   },
   {
     "revision": "29f558f914357f3f3b16",
