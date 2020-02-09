@@ -34,11 +34,12 @@
 }
 
 .footer{
-    bottom: 0;
     padding-top: 10px;
+    padding-bottom: 10px;
     background-color: black;
     align-content: center;
-    position: absolute;
-    height:80px;
+    position: fixed;
+    bottom: 0;
+    height: 70px;
     width: 100%;
 }
