@@ -32,7 +32,7 @@ class Carousal extends React.Component{
                     title: 'Quarter Allocation System',
                     subTitle: 'A PHP Project which helped Indian Railways, Mumbai(IN) to digitally allot houses to government officials. This came as a big relief from the manual process.',
                     imgSrc: train,
-                    link: '/about',
+                    link: 'https://github.com/dashottar6/QuarterAllocationSystem',
                     selected: false
                 },
             ]
